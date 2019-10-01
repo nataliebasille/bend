@@ -1,0 +1,26 @@
+{
+  "name": "bend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:frontend": "rollup -c rollup.config.frontend_tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThatTokenGirl/bend.git"
+  },
+  "author": "Natalie Coleman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThatTokenGirl/bend/issues"
+  },
+  "homepage": "https://github.com/ThatTokenGirl/bend#readme",
+  "devDependencies": {
+    "rollup": "^1.22.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^1.10.0",
+    "typescript": "^3.6.3"
+  }
+}
